@@ -1,0 +1,128 @@
+footer {
+    .login {
+        background: rgb(242, 248, 255);
+        padding: 64px 306px;
+
+        h1 {
+            color: rgb(22, 28, 36);
+            font-size: 44px;
+            font-weight: 600;
+            line-height: 62px;
+            letter-spacing: 0%;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        p {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 30px;
+
+            width: 513px;
+            color: rgb(69, 79, 91);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0%;
+        }
+
+        form {
+            gap: 30px;
+        }
+
+        input {
+            padding: 12px 56px 16px 12px;
+        }
+
+        input,
+        button {
+            border: none;
+            background: rgba(22, 28, 36, 0.04);
+            font-size: 20px;
+
+        }
+
+        button {
+            color: #fff;
+            background: rgb(66, 149, 228);
+            padding: 12px 70px;
+        }
+    }
+
+    .footer {
+        box-shadow: inset 0px 1px 0px 0px rgb(196, 205, 213);
+        background: rgb(13, 36, 54);
+        padding: 55px 100px 10px;
+
+        .footer-wrapper {
+            display: flex;
+            gap: 215px;
+        }
+
+        .img {
+            display: flex;
+            flex-direction: column;
+            gap: 150px;
+
+            .footer__icons {
+                display: flex;
+                gap: 30px;
+            }
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 130px;
+
+            .footer-link {
+                h2 {
+                    color: rgb(255, 255, 255);
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 28px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                    text-transform: capitalize;
+                    margin-bottom: 24px;
+                }
+
+                h3 {
+                    color: rgb(196, 205, 213);
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 24px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                    margin-bottom: 4px;
+                }
+
+                li {
+                    margin-bottom: 24px;
+                    margin-top: 24px;
+                }
+
+                li a {
+                    color: rgb(255, 255, 255);
+                    font-size: 16px;
+                    font-weight: 300;
+                    line-height: 26px;
+                    letter-spacing: 0%;
+                    text-align: left;
+
+                }
+            }
+        }
+
+        .post {
+            color: rgb(255, 255, 255);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+            letter-spacing: 0%;
+            text-align: center;
+            margin: 20px auto;
+
+        }
+    }
+}

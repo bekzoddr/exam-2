@@ -1,0 +1,75 @@
+header {
+    position: fixed;
+    z-index: 99999999999999;
+    width: 100vw;
+
+    .header__top {
+        display: flex;
+        gap: 197px;
+        padding: 9px 100px 9px 450px;
+        background: rgb(69, 79, 91);
+
+        .top-title {
+            color: rgb(255, 255, 255);
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 26px;
+            letter-spacing: 12%;
+            text-align: left;
+        }
+
+        h3 {
+            text-decoration: underline;
+        }
+    }
+
+    nav {
+        padding: 0 100px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: inset 0px -1px 0px 0px rgb(196, 205, 213);
+
+        .navbar {
+            display: flex;
+
+            .navbar__list {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 32px;
+                margin-left: 100px;
+
+                .navbar__link {
+                    color: rgb(22, 28, 36);
+                    font-size: 20px;
+                    font-weight: 300;
+                    line-height: 24px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                }
+
+                .navbar__number {
+                    display: flex;
+                    margin-left: 203px;
+
+                    .icons {
+                        margin-left: 35px;
+
+                        .fa-shopping-cart {
+                            margin-left: 20px;
+                        }
+                    }
+                }
+
+                #num {
+                    color: rgb(69, 79, 91);
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 21px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                }
+
+            }
+        }
+    }
+}
